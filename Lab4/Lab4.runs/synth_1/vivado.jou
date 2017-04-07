@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed Apr  5 15:58:56 2017
+# Process ID: 2296
+# Current directory: /home/a5er/Documents/ETHZ/DoDC/Labs/Lab4/Lab4.runs/synth_1
+# Command line: vivado -log FSM.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source FSM.tcl
+# Log file: /home/a5er/Documents/ETHZ/DoDC/Labs/Lab4/Lab4.runs/synth_1/FSM.vds
+# Journal file: /home/a5er/Documents/ETHZ/DoDC/Labs/Lab4/Lab4.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source FSM.tcl -notrace
