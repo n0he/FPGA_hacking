@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="17" Path="/home/a5er/Documents/ETHZ/DoDC/Labs/Lab5/Lab5.xpr">
+<Project Version="7" Minor="17" Path="/home/a5er/Documents/ETHZ/DoDC/Labs/FPGA_hacking/Lab5/Lab5.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="0d03c8c740754fd7955e3d4f337efa87"/>
@@ -51,6 +51,13 @@
   <FileSets Version="1" Minor="31">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
       <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sources_1/new/Adder.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <File Path="$PSRCDIR/sources_1/new/LogicUnit.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
