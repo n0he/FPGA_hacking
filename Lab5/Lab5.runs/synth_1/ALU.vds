@@ -1,0 +1,187 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Fri Apr  7 12:33:21 2017
+# Process ID: 11407
+# Current directory: /home/a5er/Documents/ETHZ/DoDC/Labs/Lab5/Lab5.runs/synth_1
+# Command line: vivado -log ALU.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ALU.tcl
+# Log file: /home/a5er/Documents/ETHZ/DoDC/Labs/Lab5/Lab5.runs/synth_1/ALU.vds
+# Journal file: /home/a5er/Documents/ETHZ/DoDC/Labs/Lab5/Lab5.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source ALU.tcl -notrace
+Command: synth_design -top ALU -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 11412 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1052.207 ; gain = 125.086 ; free physical = 12559 ; free virtual = 22273
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'ALU' [/home/a5er/Documents/ETHZ/DoDC/Labs/Lab5/Lab5.srcs/sources_1/new/ALU.v:23]
+INFO: [Synth 8-638] synthesizing module 'ArithmeticUnit' [/home/a5er/Documents/ETHZ/DoDC/Labs/Lab5/Lab5.srcs/sources_1/new/ArithmeticUnit.v:23]
+INFO: [Synth 8-256] done synthesizing module 'ArithmeticUnit' (1#1) [/home/a5er/Documents/ETHZ/DoDC/Labs/Lab5/Lab5.srcs/sources_1/new/ArithmeticUnit.v:23]
+INFO: [Synth 8-638] synthesizing module 'LogicUnit' [/home/a5er/Documents/ETHZ/DoDC/Labs/Lab5/Lab5.srcs/sources_1/new/LogicUnit.v:23]
+INFO: [Synth 8-226] default block is never used [/home/a5er/Documents/ETHZ/DoDC/Labs/Lab5/Lab5.srcs/sources_1/new/LogicUnit.v:32]
+INFO: [Synth 8-256] done synthesizing module 'LogicUnit' (2#1) [/home/a5er/Documents/ETHZ/DoDC/Labs/Lab5/Lab5.srcs/sources_1/new/LogicUnit.v:23]
+WARNING: [Synth 8-3848] Net logic in module/entity ALU does not have driver. [/home/a5er/Documents/ETHZ/DoDC/Labs/Lab5/Lab5.srcs/sources_1/new/ALU.v:30]
+INFO: [Synth 8-256] done synthesizing module 'ALU' (3#1) [/home/a5er/Documents/ETHZ/DoDC/Labs/Lab5/Lab5.srcs/sources_1/new/ALU.v:23]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port A[31]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port A[30]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port A[29]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port A[28]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port A[27]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port A[26]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port A[25]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port A[24]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port A[23]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port A[22]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port A[21]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port A[20]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port A[19]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port A[18]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port A[17]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port A[16]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port A[15]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port A[14]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port A[13]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port A[12]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port A[11]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port A[10]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port A[9]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port A[8]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port A[7]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port A[6]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port A[5]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port A[4]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port A[3]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port A[2]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port A[1]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port A[0]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port B[31]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port B[30]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port B[29]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port B[28]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port B[27]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port B[26]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port B[25]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port B[24]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port B[23]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port B[22]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port B[21]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port B[20]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port B[19]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port B[18]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port B[17]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port B[16]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port B[15]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port B[14]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port B[13]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port B[12]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port B[11]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port B[10]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port B[9]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port B[8]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port B[7]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port B[6]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port B[5]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port B[4]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port B[3]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port B[2]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port B[1]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port B[0]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port ALU_OP[1]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port ALU_OP[0]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port Y[31]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port Y[30]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port Y[29]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port Y[28]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port Y[27]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port Y[26]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port Y[25]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port Y[24]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port Y[23]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port Y[22]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port Y[21]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port Y[20]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port Y[19]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port Y[18]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port Y[17]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port Y[16]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port Y[15]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port Y[14]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port Y[13]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port Y[12]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port Y[11]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port Y[10]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port Y[9]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port Y[8]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port Y[7]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port Y[6]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port Y[5]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port Y[4]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port Y[3]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port Y[2]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port Y[1]
+WARNING: [Synth 8-3331] design LogicUnit has unconnected port Y[0]
+WARNING: [Synth 8-3331] design ALU has unconnected port cout
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1093.676 ; gain = 166.555 ; free physical = 12515 ; free virtual = 22231
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1093.676 ; gain = 166.555 ; free physical = 12515 ; free virtual = 22231
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1101.680 ; gain = 174.559 ; free physical = 12515 ; free virtual = 22230
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/a5er/Documents/ETHZ/DoDC/Labs/Lab5/Lab5.srcs/sources_1/new/ArithmeticUnit.v:33]
+INFO: [Synth 8-5545] ROM "cout" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1117.695 ; gain = 190.574 ; free physical = 12499 ; free virtual = 22215
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module ALU 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module ArithmeticUnit 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
